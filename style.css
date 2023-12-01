@@ -1,0 +1,71 @@
+*{
+   
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../logo.image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+    font-size: 20px;
+    text-decoration: solid;
+
+}
+#survey-form {
+    width: 60vw;
+    padding: 20px;
+    height: 100%;
+    border: 2px solid;
+    margin: auto;
+    background-color: brown;
+    flex-direction: row;
+}
+input.form-control {
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 1 2em;
+    margin-top: 15px;
+}
+#most-like {
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 1 2em;
+    margin-top: 15px;
+}
+#dropdown {
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 1 2em;
+    margin-top: 15px;  
+}
+ h1, p {
+  text-align: center;
+ }
+
+  textarea{
+    width: 50%;
+    margin: 2em;
+    height: 30vh;
+  }
+ .form-group{
+    padding: 15x;
+    margin: auto;
+ }
+
+ #submit {
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 1 2em;
+    margin-top: 15px;
+    background-color: aliceblue;
+    opacity: 1.0;
+ }
